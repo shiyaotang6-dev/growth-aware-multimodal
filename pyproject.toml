@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "growth-aware-multimodal"
+version = "0.1.0"
+description = "An educational growth-aware RGB and hyperspectral multi-task network"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "torchvision>=0.17", "numpy>=1.26", "matplotlib>=3.8", "Pillow>=10"]
+
+[project.scripts]
+growth-demo = "growth_demo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

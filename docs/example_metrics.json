@@ -1,0 +1,22 @@
+{
+  "data_source": "synthetic",
+  "manifest_sha256": "55501dedc74265c0c13534b02f7b1e9a6c60b4755cd404293348cef568edb884",
+  "dataset_sha256": "c378e74d1011f2c82d4b44dc474df0c1208148bc4a73d79befea5ef6c13032ab",
+  "seed": 42,
+  "device": "cpu",
+  "split_counts": {
+    "train": 105,
+    "val": 15,
+    "test": 30
+  },
+  "test_metrics": {
+    "loss": 0.9039996226628622,
+    "accuracy": 0.6666666666666666,
+    "spad_mae": 4.774757162729899,
+    "spad_rmse": 5.494748718987427,
+    "spad_r2": 0.7941862413369885,
+    "mean_rgb_gate": 0.977139953772227,
+    "count": 30
+  },
+  "interpretation": "Synthetic-data metrics are a software smoke check and do not establish field performance."
+}
