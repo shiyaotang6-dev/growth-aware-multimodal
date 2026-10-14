@@ -1,5 +1,7 @@
 # Growth-aware multimodal learning
 
+[![CPU tests](https://github.com/shiyaotang6-dev/growth-aware-multimodal/actions/workflows/tests.yml/badge.svg)](https://github.com/shiyaotang6-dev/growth-aware-multimodal/actions/workflows/tests.yml)
+
 **RGB × 高光谱 × 生育期先验：营养等级分类与 SPAD 回归的个人实验项目。**
 
 本仓库是一份新写的、独立的教学实现：根据 RGB / 高光谱双分支、生育期动态门控、模态图注意力、多任务学习这一思路搭建，可在 CPU 上完整运行。默认输入和标签全部由合成数据生成器产生；没有真实田间数据、原项目权重，也没有经过田间验证的准确率、R² 或边缘推理时延。这里的 `GAMT-Net-inspired` 指设计思路，不代表复现了某个未公开网络的完整结构与实验结论。
